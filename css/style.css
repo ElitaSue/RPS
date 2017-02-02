@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita:400,400i,900');
+
+body {
+  font-family: 'Sansita', sans-serif;
+  text-align: center;
+  background: #000000;
+}
+#rock {
+   background-image: url("http://ElitaSue.github.io/AboutMe/assets/purplemonster.png");
+   background-repeat:no-repeat;
+   background-size:contain;
+}
+
+#paper {
+   background-image: url("http://ElitaSue.github.io/AboutMe/assets/orangemoster.png");
+   background-repeat:no-repeat;
+   background-size:contain;
+}
+
+#scissors {
+   background-image: url("http://ElitaSue.github.io/AboutMe/assets/bluemonster.png");
+   background-repeat:no-repeat;
+   background-size:contain;
+}
+
+#player {
+  border: 8px solid #87CEFA;
+}
+
+#computer {
+  border: 8px solid #BA55D3;
+}
+
+#playagain {
+  width: 200px;
+  height: 50px;
+  background: #FFA500;
+  border-radius: 10px;
+  font-size: 1.5em
+}
+
+.container {
+  max-width: 2000px;
+}
+
+.box {
+  float: none;
+  display: inline-block;
+}
+
+.choice {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #999;
+  border-radius: 5%;
+  margin: 0  30px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 0;
+}
+
+h2 {
+  color: #474747;
+  margin: 2em 0 1em 0;
+  font-size: 40px;
+}
+
+h3 {
+}
+.return {
+  height: 60px;
+}
+
+.scorebox {
+  width: 600px;
+  margin: 0 auto;
+  float: none;
+}
+
+.scoreTitle {
+  display: inline-block;
+  font-size: 2em;
+  line-height: 100%;
+  color: #ffffff;
+  height: 150px;
+}
+
+.left {
+  text-align: right; 
+  color: #87CEFA;
+}
+
+.right {
+  text-align: left; 
+  color: #BA55D3;
+}
+
+.score {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  font-size: 8em;
+  line-height: 100%;
+  text-align: center;
+  margin: 40px 10px 0px 10px;
+}
